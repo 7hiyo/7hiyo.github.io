@@ -2,11 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://7hiyo.github.io
-title: Z5LINK Company's Blog
-subtitle: A blogging framework for hackers.
+url: http://blog.7hiyo.com
+title: Z5LINK创赢未来
+subtitle: z5link公司的技术博客
 author: Z5LINK.Inc
-simple_search: https://www.google.com/search
+simple_search: https://www.google.com.hk/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -98,3 +98,7 @@ google_analytics_tracking_id:
 
 # Facebook Like
 facebook_like: false
+
+# Weibo 新浪
+weibo_user: 2101462044
+weibo_share: true
