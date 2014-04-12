@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Z5LINK Company's Blog]]></title>
-  <link href="http://7hiyo.github.io/atom.xml" rel="self"/>
-  <link href="http://7hiyo.github.io/"/>
-  <updated>2014-04-12T11:01:32+08:00</updated>
-  <id>http://7hiyo.github.io/</id>
+  <title><![CDATA[Z5LINK创赢未来]]></title>
+  <link href="http://blog.7hiyo.com/atom.xml" rel="self"/>
+  <link href="http://blog.7hiyo.com/"/>
+  <updated>2014-04-12T12:26:55+08:00</updated>
+  <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
     
