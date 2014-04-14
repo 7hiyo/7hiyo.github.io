@@ -102,3 +102,9 @@ facebook_like: false
 # Weibo 新浪
 weibo_user: 2101462044
 weibo_share: true
+
+# 增加文章版权信息
+original_url_pre: 文章来源
+original_url_copyright: 版权所有
+contact: 联系我们
+mailto: blog@7hiyo.com
