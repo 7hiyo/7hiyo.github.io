@@ -31,4 +31,4 @@ private void startTimeCount() {
 > http://blog.csdn.net/fengbofenglingling/article/details/9840623
 
 ------
-### `联系作者:` blog@7hiyo.com 
+### `联系我们` blog@7hiyo.com 
