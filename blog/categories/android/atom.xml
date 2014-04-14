@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Z5LINK创赢未来]]></title>
   <link href="http://blog.7hiyo.com/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-14T17:30:10+08:00</updated>
+  <updated>2014-04-14T17:54:02+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -44,9 +44,9 @@ private void startTimeCount() {</p>
 
 <h2>方法二：</h2>
 
-<p>使用自定义的方式来实现，参考博文如下</p>
+<p>使用自定义的方式来实现</p>
 
-<blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">http://blog.csdn.net/fengbofenglingling/article/details/9840623</a></p></blockquote>
+<blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">android自定义button实现倒计时功能</a></p></blockquote>
 ]]></content>
   </entry>
   
