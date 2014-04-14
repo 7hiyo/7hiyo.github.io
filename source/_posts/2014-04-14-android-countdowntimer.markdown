@@ -27,6 +27,6 @@ private void startTimeCount() {
 其中，button为要显示的文字，当点击后，会出现， **`x秒后可重获验证码`**的文字
 
 ##方法二：
-使用自定义的方式来实现，参考博文如下
-> http://blog.csdn.net/fengbofenglingling/article/details/9840623
+使用自定义的方式来实现
+> [android自定义button实现倒计时功能](http://blog.csdn.net/fengbofenglingling/article/details/9840623)
 
