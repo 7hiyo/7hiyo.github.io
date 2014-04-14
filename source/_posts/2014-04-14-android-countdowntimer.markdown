@@ -30,4 +30,3 @@ private void startTimeCount() {
 使用自定义的方式来实现，参考博文如下
 > http://blog.csdn.net/fengbofenglingling/article/details/9840623
 
-##
