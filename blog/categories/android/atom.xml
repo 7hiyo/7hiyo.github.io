@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Z5LINK创赢未来]]></title>
   <link href="http://blog.7hiyo.com/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-14T14:30:37+08:00</updated>
+  <updated>2014-04-14T14:46:46+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -39,14 +39,18 @@ private void startTimeCount() {</p>
 }.start();
 </code></pre>
 
-<p>```
-其中，button为要显示的文字，当点击后，会出现， &ldquo;x秒后可重获验证码"的文字</p>
+<p><code>``
+其中，button为要显示的文字，当点击后，会出现， **</code>x秒后可重获验证码`**的文字</p>
 
 <h2>方法二：</h2>
 
 <p>使用自定义的方式来实现，参考博文如下</p>
 
 <blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">http://blog.csdn.net/fengbofenglingling/article/details/9840623</a></p></blockquote>
+
+<hr />
+
+<h3><code>联系作者:</code> <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#99;&#x61;&#114;&#x6c;&#119;&#97;&#110;&#x67;&#x40;&#55;&#x68;&#x69;&#x79;&#111;&#x2e;&#x63;&#x6f;&#109;">&#x63;&#x61;&#x72;&#x6c;&#119;&#97;&#x6e;&#x67;&#x40;&#x37;&#104;&#105;&#121;&#x6f;&#46;&#99;&#111;&#109;</a></h3>
 ]]></content>
   </entry>
   
