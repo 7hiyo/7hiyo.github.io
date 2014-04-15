@@ -120,8 +120,8 @@ QVGA 320240 (Quarter &hellip;">
 <p>Android手机目前常见的分辨率</p>
 
 <ol>
-<li><p>手机常见分辨率:
-4:3</p>
+<li>手机常见分辨率:
+4:3
 
 <blockquote><p>VGA     640<em>480 (Video Graphics Array)
 QVGA  320</em>240 (Quarter VGA)
@@ -146,94 +146,12 @@ QHD     960<em>540
 iphone5         1136</em>640
 小米1             854<em>480(FWVGA)
 小米2             1280</em>720</p></blockquote></li>
-<li><p>分辨率对应DPI</p>
-
-<blockquote><p>&ldquo;HVGA    mdpi&rdquo;
-&ldquo;WVGA   hdpi &rdquo;
-&ldquo;FWVGA hdpi &rdquo;
-&ldquo;QHD      hdpi &rdquo;
-&ldquo;720P     xhdpi&rdquo;
-&ldquo;1080P   xxhdpi “</p></blockquote></li>
 </ol>
 
 
-<hr />
-
-<h2>屏幕适配的注意事项</h2>
-
-<p> <strong>基本设置</strong></p>
-
-<ul>
-<li><p>AndroidManifest.xml设置
-   在中Menifest中添加子元素 android:anyDensity=“true&#8221;时，应用程序安装在不同密度的终端上时，程序会分别加载xxhdpi、xhdpi、hdpi、mdpi、ldpi文件夹中的资源；相反，如果设为false，即使在文件夹下拥有相同资源，应用不会自动地去相应文件夹下寻找资源：</p>
-
-<pre><code>   1) 如果drawable-hdpi、drawable-mdpi、drawable-ldpi三个文件夹中有同一张图片资源的不同密度表示，那么系统会去加载drawable_mdpi文件夹中的资源；
-   2) 如果drawable-hpdi中有高密度图片，其它两个文件夹中没有对应图片资源，那么系统会去加载drawable-hdpi中的资源，其他同理；
-   3) 如果drawable-hdpi,drawable-mdpi中有图片资源，drawable-ldpi中没有，系统会加载drawable-mdpi中的资源，其他同理，使用最接近的密度级别。
-</code></pre></li>
-<li><p>横屏竖屏目录区分
-   1) drawable</p>
-
-<pre><code> a) drawable-hdpi该图片即适用于横屏，也适用于竖屏；
- b) drawable-land-hdpi,当屏幕为横屏，且为高密度时，加载此文件夹的资源；
- c) drawable-port-hdpi,当屏幕为竖屏，且为高密度时，加载此文件夹中的资源。其他同理。
-</code></pre></li>
-</ul>
-
-
-<p>  2) layout</p>
-
-<pre><code>      在res目录下建立layout-port和layout-land两个目录，里面分别放置竖屏和横屏两种布局文件，以适应对横屏竖屏自动切换。
-</code></pre>
-
-<hr />
-
-<h2>多屏幕适配的4条黄金原则</h2>
-
-<blockquote><p>1) 在layout文件中设置控件尺寸时应采用fill_parent、wrap_content、match_parent和dp；</p>
-
-<pre><code> 具体来说，设置view的属性android:layout_width和android:layout_height的值时，wrap_content，match_parent或dp比px更好，文字大小应该使用sp来定义。
-</code></pre>
-
-<p>2) 在程序的代码中不要出现具体的像素值，在dimens.xml中定义；</p>
-
-<pre><code> 为了使代码简单，android内部使用pix为单位表示控件的尺寸，但这是基于当前屏幕基础上的。为了适应多种屏幕，android建议开发者不要使用具体的像素来表示控件尺寸。
-</code></pre>
-
-<p>3) 不使用AbsoluteLayout(android1.5已废弃) ，可以使用RelativeLayout替代；</p>
-
-<p>4) 对不同的屏幕提供合适大小的图片。
-   不同大小屏幕用不同大小的图片，low:medium:high:extra-high图片大小的比例为3:4:6:8；举例来说，对于中等密度(medium)的屏幕你的图片像素大小为48×48，那么低密度(low)屏幕的图片大小应为36×36，高(high)的为72×72，extra-high为96×96。</p></blockquote>
-
-<p><strong>使用9-patch PNG图片</strong></p>
-
-<pre><code>使用图片资源时，如果出现拉伸，因为图片处理的原因，会变形，导致界面走形。9-patch PNG图片也是一种标准的PGN图片，在原生PNG图片四周空出一个像素间隔，用来标识PNG图片中哪些部分可以拉伸、哪些不可以拉伸、背景上的边框位置等。
-“上、左”定义可拉伸区域 ,“右、下”定义显示区域，如果用到完整填充的背景图，建议不要通过android:padding来设置边距，而是通过9-patch方式来定义。
- Android SDK中提供了编辑9-Patch图片的工具，在tools目录下draw9patch.bat，能够立刻看到编辑后的拉伸效果，也可以直接用其他图片编辑工具编辑，但是看不到效果。
-</code></pre>
-
-<p><strong>不同的layout</strong></p>
-
-<pre><code>    Android手机屏幕大小不一，有480x320, 640x360, 800x480……，怎样才能让Application自动适应不同的屏幕呢？
-    其实很简单，只需要在res目录下创建不同的layout文件夹，比如：layout-640x360、layout-800x480……所有的layout文件在编译之后都会写入R.java里，而系统会根据屏幕的大小自己选择合适的layout进行使用。
-</code></pre>
-
-<p>  <strong>测试验证</strong></p>
-
-<pre><code>   一般使用AVD Manager创建多个不同大小的模拟器，如果条件具备，也可以直接用真机测试，这个比较靠谱。当然，Genymotion的模拟器的飞速运行为我们提供了更好的选择，大家可以下载Genymotion的模拟器进行调试。
-</code></pre>
-
-<p>3 参考资料</p>
-
-<pre><code>http://blog.csdn.net/guozh/article/details/8954994
-http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
-</code></pre>
-
-<p class='post-footer'> 文章来源 <a href='http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/'>http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/</a><br/>版权所有 <a href='http://blog.7hiyo.com'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://blog.7hiyo.com'>http://blog.7hiyo.com</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
-
 
 		
-		
+		<a href="/blog/2014/04/15/ios-cocoapods/" class="more-link">阅读全文 &rarr;</a>
 	</div>
 
 </article>
@@ -297,19 +215,9 @@ http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
 </span><span class='line'>    }.start();</span></code></pre></td></tr></table></div></figure>
 
 
-<p>其中，button为要显示的文字，当点击后，会出现， <strong><code>x秒后可重获验证码</code></strong>的文字</p>
-
-<h2>方法二：</h2>
-
-<p>使用自定义的方式来实现</p>
-
-<blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">android自定义button实现倒计时功能</a></p></blockquote>
-
-<p class='post-footer'> 文章来源 <a href='http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/'>http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/</a><br/>版权所有 <a href='http://blog.7hiyo.com'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://blog.7hiyo.com'>http://blog.7hiyo.com</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
-
 
 		
-		
+		<a href="/blog/2014/04/14/android-countdowntimer/" class="more-link">阅读全文 &rarr;</a>
 	</div>
 
 </article>

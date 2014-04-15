@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 多分辨率适配 | Z5LINK创赢未来]]></title>
   <link href="http://blog.7hiyo.com/blog/categories/duo-fen-bian-lu-gua-pei/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-15T15:06:08+08:00</updated>
+  <updated>2014-04-15T15:28:54+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -25,8 +25,8 @@
 <p>Android手机目前常见的分辨率</p>
 
 <ol>
-<li><p>手机常见分辨率:
-4:3</p>
+<li>手机常见分辨率:
+4:3
 
 <blockquote><p>VGA     640<em>480 (Video Graphics Array)
 QVGA  320</em>240 (Quarter VGA)
@@ -51,16 +51,21 @@ QHD     960<em>540
 iphone5         1136</em>640
 小米1             854<em>480(FWVGA)
 小米2             1280</em>720</p></blockquote></li>
-<li><p>分辨率对应DPI</p>
+</ol>
+
+
+<!--more-->
+
+
+<p>
+ 2. 分辨率对应DPI</p>
 
 <blockquote><p>&ldquo;HVGA    mdpi&rdquo;
 &ldquo;WVGA   hdpi &rdquo;
 &ldquo;FWVGA hdpi &rdquo;
 &ldquo;QHD      hdpi &rdquo;
 &ldquo;720P     xhdpi&rdquo;
-&ldquo;1080P   xxhdpi “</p></blockquote></li>
-</ol>
-
+&ldquo;1080P   xxhdpi “</p></blockquote>
 
 <hr />
 
