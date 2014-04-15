@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "android CountDownTimer的使用 "
+title: "Android倒计时类CountDownTimer的使用"
 date: 2014-04-14 13:50:21 +0800
 comments: true
 categories:  android 验证码

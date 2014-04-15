@@ -108,3 +108,8 @@ original_url_pre: 文章来源
 original_url_copyright: 版权所有
 contact: 联系我们
 mailto: blog@7hiyo.com
+
+
+# Duoshuo Comments
+duoshuo_comments: true
+duoshuo_short_name: 7hiyo
