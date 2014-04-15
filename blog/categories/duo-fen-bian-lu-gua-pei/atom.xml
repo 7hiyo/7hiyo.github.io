@@ -4,7 +4,7 @@
   <title><![CDATA[Category: 多分辨率适配 | Z5LINK创赢未来]]></title>
   <link href="http://blog.7hiyo.com/blog/categories/duo-fen-bian-lu-gua-pei/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-15T16:21:14+08:00</updated>
+  <updated>2014-04-15T16:26:10+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -28,31 +28,43 @@
 <li>手机常见分辨率:
 4:3
 
-<blockquote><p>VGA     640<em>480 (Video Graphics Array)
-QVGA  320</em>240 (Quarter VGA)
-HVGA  480<em>320 (Half-size VGA)
-SVGA  800</em>600 (Super VGA)</p></blockquote>
+<blockquote><ul>
+<li>VGA   640*480 (Video Graphics Array)</li>
+<li>QVGA  320*240 (Quarter VGA)</li>
+<li>HVGA  480*320 (Half-size VGA)</li>
+<li>SVGA  800*600 (Super VGA)</li>
+</ul>
+</blockquote>
 
   5:3
 
-<blockquote><p>WVGA  800*480 (Wide VGA)</p></blockquote>
+<blockquote><ul>
+<li>WVGA  800*480 (Wide VGA)</li>
+</ul>
+</blockquote>
 
   16:9
 
-<blockquote><p>FWVGA 854<em>480 (Full Wide VGA)
-HD        1920</em>1080 High Definition
-QHD     960<em>540
-720p    1280</em>720  标清
-1080p  1920*1080 高清</p></blockquote>
+<blockquote><ul>
+<li>FWVGA 854*480 (Full Wide VGA)</li>
+<li>HD        1920*1080 High Definition</li>
+<li>QHD     960*540</li>
+<li>720p    1280*720  标清</li>
+<li>1080p  1920*1080 高清</li>
+</ul>
+</blockquote>
 
-  手机:
-
-<blockquote><p>iphone 4/4s    960<em>640 (3:2)
-iphone5         1136</em>640
-小米1             854<em>480(FWVGA)
-小米2             1280</em>720</p></blockquote></li>
+<p>  手机:</p></li>
 </ol>
 
+
+<blockquote><ul>
+<li>iphone 4/4s    960*640 (3:2)</li>
+<li>iphone5         1136*640</li>
+<li>小米1             854*480(FWVGA)</li>
+<li>小米2             1280*720</li>
+</ul>
+</blockquote>
 
 <!--more-->
 
@@ -60,12 +72,15 @@ iphone5         1136</em>640
 <p>
  2. 分辨率对应DPI</p>
 
-<blockquote><p>&ldquo;HVGA    mdpi&rdquo;
-&ldquo;WVGA   hdpi &rdquo;
-&ldquo;FWVGA hdpi &rdquo;
-&ldquo;QHD      hdpi &rdquo;
-&ldquo;720P     xhdpi&rdquo;
-&ldquo;1080P   xxhdpi “</p></blockquote>
+<blockquote><ul>
+<li>&ldquo;HVGA    mdpi&rdquo;</li>
+<li>&ldquo;WVGA   hdpi &rdquo;</li>
+<li>&ldquo;FWVGA hdpi &rdquo;</li>
+<li>&ldquo;QHD      hdpi &rdquo;</li>
+<li>&ldquo;720P     xhdpi&rdquo;</li>
+<li>&ldquo;1080P   xxhdpi “</li>
+</ul>
+</blockquote>
 
 <hr />
 
