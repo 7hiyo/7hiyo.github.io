@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Android | Z5LINK创赢未来]]></title>
-  <link href="http://blog.7hiyo.com/blog/categories/android/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 多分辨率适配 | Z5LINK创赢未来]]></title>
+  <link href="http://blog.7hiyo.com/blog/categories/duo-fen-bian-lu-gua-pei/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
   <updated>2014-04-15T15:06:08+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
@@ -133,43 +133,6 @@ iphone5         1136</em>640
 <pre><code>http://blog.csdn.net/guozh/article/details/8954994
 http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Android倒计时类CountDownTimer的使用]]></title>
-    <link href="http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/"/>
-    <updated>2014-04-14T13:50:21+08:00</updated>
-    <id>http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer</id>
-    <content type="html"><![CDATA[<h2>方法一：</h2>
-
-<p>只需要在某个button上点击的时候，触发下面的方法即可：</p>
-
-<p>```
-private void startTimeCount() {</p>
-
-<pre><code>new CountDownTimer(60000,1000) {
-    @Override
-    public void onTick(long millisUntilFinished) {
-        button.setEnabled(false);
-        button.setText(millisUntilFinished/1000+"秒后可重获验证码");
-
-    @Override
-    public void onFinish() {
-        button.setEnabled(true);
-        button.setText("重发验证码");
-    }
-}.start();
-</code></pre>
-
-<p><code>``
-其中，button为要显示的文字，当点击后，会出现， **</code>x秒后可重获验证码`**的文字</p>
-
-<h2>方法二：</h2>
-
-<p>使用自定义的方式来实现</p>
-
-<blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">android自定义button实现倒计时功能</a></p></blockquote>
 ]]></content>
   </entry>
   
