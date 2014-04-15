@@ -33,7 +33,7 @@ iphone5         1136*640
 小米1             854*480(FWVGA)
 小米2             1280*720
  
-
+<!--more--> 
  2. 分辨率对应DPI
 >"HVGA    mdpi"
 "WVGA   hdpi "

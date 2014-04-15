@@ -24,6 +24,7 @@ private void startTimeCount() {
         }
     }.start();
 ```
+<!--more-->
 其中，button为要显示的文字，当点击后，会出现， **`x秒后可重获验证码`**的文字
 
 ##方法二：
