@@ -7,8 +7,8 @@ categories: android 多分辨率适配
 ---
 ## android的分辨率适配
 -----------------
-Android手机目前常见的分辨率
 
+Android手机目前常见的分辨率
 
  1. 手机常见分辨率:
     4:3
@@ -102,6 +102,8 @@ Android手机目前常见的分辨率
        一般使用AVD Manager创建多个不同大小的模拟器，如果条件具备，也可以直接用真机测试，这个比较靠谱。当然，Genymotion的模拟器的飞速运行为我们提供了更好的选择，大家可以下载Genymotion的模拟器进行调试。
 
 3 参考资料
-  	http://blog.csdn.net/guozh/article/details/8954994
- 	http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
+
+ * [http://blog.csdn.net/guozh/article/details/8954994](http://blog.csdn.net/guozh/article/details/8954994)
+ 
+ * [http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）](http://my.eoe.cn/cainiao1/archive/2348.html)
 
