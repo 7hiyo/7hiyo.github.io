@@ -103,7 +103,7 @@ Android手机目前常见的分辨率
 
 3 参考资料
 
- * [http://blog.csdn.net/guozh/article/details/8954994](http://blog.csdn.net/guozh/article/details/8954994)
+ * <http://blog.csdn.net/guozh/article/details/8954994>
  
  * [http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）](http://my.eoe.cn/cainiao1/archive/2348.html)
 
