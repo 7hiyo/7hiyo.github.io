@@ -4,7 +4,7 @@
   <title><![CDATA[Z5LINK创赢未来]]></title>
   <link href="http://blog.7hiyo.com/atom.xml" rel="self"/>
   <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-18T21:44:38+08:00</updated>
+  <updated>2014-04-18T22:28:59+08:00</updated>
   <id>http://blog.7hiyo.com/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -34,16 +34,25 @@
 <li>HVGA  480*320 (Half-size VGA)</li>
 <li>SVGA  800*600 (Super VGA)</li>
 </ul>
-</blockquote>
+</blockquote></li>
+</ol>
 
-  5:3
+
+<!--more-->
+
+
+<p></p>
+
+<pre><code>5:3
+</code></pre>
 
 <blockquote><ul>
 <li>WVGA  800*480 (Wide VGA)</li>
 </ul>
 </blockquote>
 
-  16:9
+<pre><code>16:9
+</code></pre>
 
 <blockquote><ul>
 <li>FWVGA 854*480 (Full Wide VGA)</li>
@@ -54,9 +63,8 @@
 </ul>
 </blockquote>
 
-<p>  手机:</p></li>
-</ol>
-
+<pre><code>手机:
+</code></pre>
 
 <blockquote><ul>
 <li>iphone 4/4s    960*640 (3:2)</li>
@@ -66,11 +74,10 @@
 </ul>
 </blockquote>
 
-<!--more-->
+<ol>
+<li>分辨率对应DPI</li>
+</ol>
 
-
-<p>
- 2. 分辨率对应DPI</p>
 
 <blockquote><ul>
 <li>&ldquo;HVGA    mdpi&rdquo;</li>
