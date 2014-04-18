@@ -16,7 +16,7 @@ Android手机目前常见的分辨率
 > * QVGA  320*240 (Quarter VGA)
 > * HVGA  480*320 (Half-size VGA)
 > * SVGA  800*600 (Super VGA)
-
+<!--more--> 
     5:3
 > * WVGA  800*480 (Wide VGA)
 
@@ -34,7 +34,6 @@ Android手机目前常见的分辨率
 > * 小米1             854*480(FWVGA)
 > * 小米2             1280*720
  
-<!--more--> 
  2. 分辨率对应DPI
 
 > * "HVGA    mdpi"
