@@ -1,27 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/</loc>
+        <loc>http://7hiyo.github.io/blog/2014/04/14/android-countdowntimer/</loc>
         <lastmod>2014-04-18T17:39:43+08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/</loc>
-        <lastmod>2014-04-18T22:15:48+08:00</lastmod>
+        <loc>http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/</loc>
+        <lastmod>2014-04-18T23:33:53+08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.7hiyo.com/404.html</loc>
+        <loc>http://7hiyo.github.io/404.html</loc>
         <lastmod>2014-04-18T17:39:43+08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.7hiyo.com/blog/archives/</loc>
-        <lastmod>2014-04-18T22:15:48+08:00</lastmod>
+        <loc>http://7hiyo.github.io/blog/archives/</loc>
+        <lastmod>2014-04-18T23:33:53+08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.7hiyo.com/</loc>
-        <lastmod>2014-04-18T22:15:48+08:00</lastmod>
+        <loc>http://7hiyo.github.io/</loc>
+        <lastmod>2014-04-18T23:33:53+08:00</lastmod>
     </url>
     <url>
-        <loc>http://blog.7hiyo.com/robots.txt</loc>
+        <loc>http://7hiyo.github.io/robots.txt</loc>
         <lastmod>2014-04-18T17:39:43+08:00</lastmod>
     </url>
 </urlset>

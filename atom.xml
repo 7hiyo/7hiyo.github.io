@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Z5LINK创赢未来]]></title>
-  <link href="http://blog.7hiyo.com/atom.xml" rel="self"/>
-  <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-18T22:28:59+08:00</updated>
-  <id>http://blog.7hiyo.com/</id>
+  <link href="http://7hiyo.github.io/atom.xml" rel="self"/>
+  <link href="http://7hiyo.github.io/"/>
+  <updated>2014-04-18T23:38:15+08:00</updated>
+  <id>http://7hiyo.github.io/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Android的多分辨率适配]]></title>
-    <link href="http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/"/>
+    <link href="http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/"/>
     <updated>2014-04-15T14:23:11+08:00</updated>
-    <id>http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods</id>
+    <id>http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods</id>
     <content type="html"><![CDATA[<h2>android的分辨率适配</h2>
 
 <hr />
@@ -157,20 +157,22 @@
 
 <p>3 参考资料</p>
 
-<pre><code>http://blog.csdn.net/guozh/article/details/8954994
-http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
-</code></pre>
+<ul>
+<li><p><a href="http://blog.csdn.net/guozh/article/details/8954994">http://blog.csdn.net/guozh/article/details/8954994</a></p></li>
+<li><p><a href="http://my.eoe.cn/cainiao1/archive/2348.html">http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）</a></p></li>
+</ul>
 
-<p class='post-footer'> 文章来源 <a href='http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/'>http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/</a><br/>版权所有 <a href='http://blog.7hiyo.com'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://blog.7hiyo.com'>http://blog.7hiyo.com</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
+
+<p class='post-footer'> 文章来源 <a href='http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/'>http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/</a><br/>版权所有 <a href='http://7hiyo.github.io'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://7hiyo.github.io'>http://7hiyo.github.io</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
 
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Android倒计时类CountDownTimer的使用]]></title>
-    <link href="http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/"/>
+    <link href="http://7hiyo.github.io/blog/2014/04/14/android-countdowntimer/"/>
     <updated>2014-04-14T13:50:21+08:00</updated>
-    <id>http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer</id>
+    <id>http://7hiyo.github.io/blog/2014/04/14/android-countdowntimer</id>
     <content type="html"><![CDATA[<h2>方法一：</h2>
 
 <p>只需要在某个button上点击的时候，触发下面的方法即可：</p>
@@ -214,7 +216,7 @@ http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
 
 <blockquote><p><a href="http://blog.csdn.net/fengbofenglingling/article/details/9840623">android自定义button实现倒计时功能</a></p></blockquote>
 
-<p class='post-footer'> 文章来源 <a href='http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/'>http://blog.7hiyo.com/blog/2014/04/14/android-countdowntimer/</a><br/>版权所有 <a href='http://blog.7hiyo.com'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://blog.7hiyo.com'>http://blog.7hiyo.com</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
+<p class='post-footer'> 文章来源 <a href='http://7hiyo.github.io/blog/2014/04/14/android-countdowntimer/'>http://7hiyo.github.io/blog/2014/04/14/android-countdowntimer/</a><br/>版权所有 <a href='http://7hiyo.github.io'>Z5LINK.Inc</a>&nbsp;posted at <a href='http://7hiyo.github.io'>http://7hiyo.github.io</a><br/>联系我们 <a href='mailto:blog@7hiyo.com'>blog@7hiyo.com</a></p>
 
 ]]></content>
   </entry>

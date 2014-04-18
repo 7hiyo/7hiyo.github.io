@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://blog.7hiyo.com/sitemap.xml 
+Sitemap: http://7hiyo.github.io/sitemap.xml 

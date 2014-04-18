@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 多分辨率适配 | Z5LINK创赢未来]]></title>
-  <link href="http://blog.7hiyo.com/blog/categories/duo-fen-bian-lu-gua-pei/atom.xml" rel="self"/>
-  <link href="http://blog.7hiyo.com/"/>
-  <updated>2014-04-18T22:28:59+08:00</updated>
-  <id>http://blog.7hiyo.com/</id>
+  <link href="http://7hiyo.github.io/blog/categories/duo-fen-bian-lu-gua-pei/atom.xml" rel="self"/>
+  <link href="http://7hiyo.github.io/"/>
+  <updated>2014-04-18T23:38:15+08:00</updated>
+  <id>http://7hiyo.github.io/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Android的多分辨率适配]]></title>
-    <link href="http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods/"/>
+    <link href="http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/"/>
     <updated>2014-04-15T14:23:11+08:00</updated>
-    <id>http://blog.7hiyo.com/blog/2014/04/15/ios-cocoapods</id>
+    <id>http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods</id>
     <content type="html"><![CDATA[<h2>android的分辨率适配</h2>
 
 <hr />
@@ -157,9 +157,11 @@
 
 <p>3 参考资料</p>
 
-<pre><code>http://blog.csdn.net/guozh/article/details/8954994
-http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）
-</code></pre>
+<ul>
+<li><p><a href="http://blog.csdn.net/guozh/article/details/8954994">http://blog.csdn.net/guozh/article/details/8954994</a></p></li>
+<li><p><a href="http://my.eoe.cn/cainiao1/archive/2348.html">http://my.eoe.cn/cainiao1/archive/2348.html（皇马船长）</a></p></li>
+</ul>
+
 ]]></content>
   </entry>
   
