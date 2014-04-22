@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Android | Z5LINK创赢未来]]></title>
   <link href="http://7hiyo.github.io/blog/categories/android/atom.xml" rel="self"/>
   <link href="http://7hiyo.github.io/"/>
-  <updated>2014-04-22T17:17:06+08:00</updated>
+  <updated>2014-04-22T17:23:12+08:00</updated>
   <id>http://7hiyo.github.io/</id>
   <author>
     <name><![CDATA[Z5LINK.Inc]]></name>
@@ -18,11 +18,7 @@
     <link href="http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods/"/>
     <updated>2014-04-15T14:23:11+08:00</updated>
     <id>http://7hiyo.github.io/blog/2014/04/15/ios-cocoapods</id>
-    <content type="html"><![CDATA[<h2>android的分辨率适配</h2>
-
-<hr />
-
-<p>Android手机目前常见的分辨率</p>
+    <content type="html"><![CDATA[<p>Android手机目前常见的分辨率</p>
 
 <ol>
 <li>手机常见分辨率:
