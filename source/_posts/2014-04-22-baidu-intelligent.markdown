@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "baidu intelligent"
+title: "百度硬件设备布局"
 date: 2014-04-22 16:18:44 +0800
 comments: true
 categories: 产品思考 智能设备
