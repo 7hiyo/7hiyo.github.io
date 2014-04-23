@@ -3,7 +3,8 @@ layout: post
 title: "Android的多分辨率适配"
 date: 2014-04-15 14:23:11 +0800
 comments: true
-categories: android 多分辨率适配
+categories: android
+tags: 多分辨率适配
 ---
 
 Android手机目前常见的分辨率
