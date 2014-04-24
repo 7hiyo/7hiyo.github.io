@@ -65,7 +65,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user: perzect
+github_user: #perzect
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -102,7 +102,7 @@ google_analytics_tracking_id:
 facebook_like: false
 
 # Weibo 新浪
-weibo_user: 2101462044
+weibo_user: #2101462044
 weibo_share: true
 
 # 增加文章版权信息
