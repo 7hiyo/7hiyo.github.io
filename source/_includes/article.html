@@ -1,7 +1,7 @@
 {% if index %}
 	<div class="meta">
 		<div class="date">{% include post/date.html %}{{ time }}</div>
-		<div class="tags">{% include post/categories.html %}</div>
+		<div class="tags">{% include post/tags.html %}</div>
 		{% if site.disqus_short_name and site.disqus_show_comment_count == true %}
 			<span class="comments"><a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></span>
 		{% endif %}
@@ -14,14 +14,12 @@
 	</div>
 {% else %}
     	<nav id="pagenavi">
-			<!-- <div class="center"> -->
 				<a href="{{ root_url }}/">
 					<font size="4" color="#87CEFA">回到首页</font>
 				</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="{{ root_url }}/blog/archives">
 					<font size="4" color="#87CEEB">所有文章</font>
 				</a>
-			<!-- </div> -->
 		</nav>
 	<h1 class="title" itemprop="name"><div class="center">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</div></h1>
 	<div class="entry-content" itemprop="articleBody">{{ content }}</div>
