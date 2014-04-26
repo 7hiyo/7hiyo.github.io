@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: 技术博客 | Z5LINK创赢未来]]></title>
+  <link href="http://7hiyo.github.io/blog/categories/ji-zhu-bo-ke/atom.xml" rel="self"/>
+  <link href="http://7hiyo.github.io/"/>
+  <updated>2014-04-26T10:57:29+08:00</updated>
+  <id>http://7hiyo.github.io/</id>
+  <author>
+    <name><![CDATA[Z5LINK.Inc]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Octpress多人(多台电脑)协作]]></title>
+    <link href="http://7hiyo.github.io/blog/2014/04/26/octpress-cooperation/"/>
+    <updated>2014-04-26T10:51:40+08:00</updated>
+    <id>http://7hiyo.github.io/blog/2014/04/26/octpress-cooperation</id>
+    <content type="html"><![CDATA[<ol>
+<li><p>octpress协作指南</p>
+
+<ul>
+<li>clone目标地址到本地服务器命名为自己喜欢的名字，例如，我的clone到本地后改名为 octsource。然后复制octpress整个文件夹，并命名为<code>_deploy</code>,然后放到 octpress目录下。</li>
+</ul>
+</li>
+</ol>
+
+
+<!-- more -->
+
+
+<pre><code>* 进入octpress目录下，使用git branch，查看目前的分支是否为master，如果是使用命令， git checkout source,切换到source分支下。（默认情况下，大家都是将master分支用于部署环境，而源码都是存放在source分支下。）
+* 经过以上两个步骤，就可以使用rake preview和rake generate了。**特殊情况：**偶尔情况下，安装的ruby环境或者rake会导致一些问题，只需要更改Gemfile中相应的版本即可！
+</code></pre>
+
+<ol>
+<li>markdown编辑器推荐
+<a href="https://www.zybuluo.com/mdeditor">markdown在线编辑-作业部落</a></li>
+</ol>
+
+]]></content>
+  </entry>
+  
+</feed>
